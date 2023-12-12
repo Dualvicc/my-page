@@ -4,7 +4,7 @@ export const generalData = {
     jobTitle: "Web Developer",
     website: "https://www.vmperez.com",
     about:
-      "Hey there! I'm Victor, a  front-end developer with 1 year of experience in web development.",
+      "Hey there! I'm Victor, a junior front-end developer with 1 year of experience in web development.",
     contacts: [
       {
         label: "Email",

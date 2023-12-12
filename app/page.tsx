@@ -70,7 +70,7 @@ export default function Home() {
               </span>
             ) : null}
           </div>
-          <div className="px-6 right-0 bottom-6">
+          <div className="absolute right-6">
             <ThemeSwitch />
           </div>
         </section>
