@@ -28,7 +28,6 @@ const ThemeSwitch = () => {
         className="font-light text-sm text-slate-900 dark:text-slate-100"
         id="theme"
       >
-        <option value="system">System</option>
         <option value="dark">Dark</option>
         <option value="light">Light</option>
       </select>

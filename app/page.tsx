@@ -9,7 +9,7 @@ type ContentProps = Content;
 const Content: React.FC<ContentProps> = ({ title, items }) => {
   return (
     <section className="my-14 text-sm">
-      <h3 className="mb-6">{title}</h3>
+      <h3 className="mb-6 dark:text-slate-200">{title}</h3>
       <div className="flex flex-col gap-6">
         {items.map((item, index) => {
           return (
@@ -17,8 +17,8 @@ const Content: React.FC<ContentProps> = ({ title, items }) => {
               <div className="mr-8 max-w-[100px] w-full text-slate-400 dark:text-slate-400">
                 {item.date}
               </div>
-              <div className="flex flex-col flex-1 ">
-                <h4>{item.title}</h4>
+              <div className="flex flex-col flex-1">
+                <h4 className="text-slate-900 dark:text-slate-100">{item.title}</h4>
                 <p className="text-slate-600 dark:text-gray-400">
                   {item.subTitle}
                 </p>
@@ -84,7 +84,7 @@ export default function Home() {
           return <Content {...content} key={index} />;
         })}
         <section className="my-14 text-sm">
-          <h3 className="mb-6 text-slate-900">Contact</h3>
+          <h3 className="mb-6 text-slate-900 dark:text-slate-100">Contact</h3>
           <div className="flex flex-col gap-6">
             {generalData.contacts.map((contact, index) => {
               return (
