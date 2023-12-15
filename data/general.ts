@@ -21,5 +21,10 @@ export const generalData = {
         value: "Dualvic",
         href: "https://github.com/dualvicc",
       },
+      {
+        label: "LinkedIn",
+        value: "Victor Manuel Perez Peña",
+        href: "https://www.linkedin.com/in/víctor-manuel-pérez-peña",
+      },
     ],
   };
