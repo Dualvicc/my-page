@@ -4,17 +4,12 @@ export const generalData = {
     jobTitle: "Web Developer",
     website: "https://www.vmperez.com",
     about:
-      "Hey there! I'm Victor, a junior front-end developer with 1 year of experience in web development.",
+      "Hey there! I'm Victor, a junior full-stack developer from Mallorca, Spain",
     contacts: [
       {
         label: "Email",
         value: "vmpporci@gmail.com",
         href: "mailto:vmpporci@gmail.com",
-      },
-      {
-        label: "Twitter",
-        value: "Victor Perez",
-        href: "https://twitter.com/vicDualvic",
       },
       {
         label: "Github",
@@ -23,8 +18,18 @@ export const generalData = {
       },
       {
         label: "LinkedIn",
-        value: "Victor Manuel Perez Peña",
+        value: "Victor Perez",
         href: "https://www.linkedin.com/in/víctor-manuel-pérez-peña",
+      },
+      {
+        label: "Instagram",
+        value: "Victor Perez",
+        href: "https://www.instagram.com/dualvic",
+      },
+      {
+        label: "Twitter",
+        value: "Victor Perez",
+        href: "https://twitter.com/vicDualvic",
       },
     ],
   };
