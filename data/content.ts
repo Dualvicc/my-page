@@ -3,10 +3,17 @@ export const contentData = [
     title: "Work Experience",
     items: [
       {
+        title: "Software Developer at AnySolution",
+        subTitle: "Remote",
+        date: "2024 - Present",
+        description:
+          "Docker, Node.js, React, Typescript, Next.js, Tailwind, CI/CD, Testing; all in the context of European projects.",
+      },
+      {
         title: "Web Developer at Lacebot",
         subTitle: "Remote",
-        date: "2023 - Present",
-        description: "Design, Seo and user experience",
+        date: "2023 - 2024",
+        description: "Design, Seo, UX",
       },
       {
         title: "Front-End Developer at Yupfront",
@@ -40,13 +47,15 @@ export const contentData = [
         title: "Hard Skills",
         subTitle: "",
         date: "",
-        description: "Next.js, React, Javascript, Typescript, CSS, SASS, Tailwind, SEO, UX, Git, Node.js, npm, MongoDB, MySQL, GraphQL, PostgreSQL,",
+        description:
+          "Next.js, React, Typescript, CSS, SASS, Tailwind, SEO, UX, Git, Node.js, npm, MongoDB, MySQL, GraphQL, PostgreSQL, Docker, CI/CD, Testing",
       },
       {
         title: "Soft Skills",
         subTitle: "",
         date: "",
-        description: "Critical Thinking, Problem Solving , Self-Learning, Adaptability, Teamwork",
+        description:
+          "Critical Thinking, Problem Solving, Self-Learning, Adaptability, Teamwork",
       },
     ],
   },
